@@ -1,0 +1,449 @@
+* {
+    max-width: 1400px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+H3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.prixnuitaside, .prixnuitaside3ecarte, .divetoiles{
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ---------------------- header ------------------- */
+header {
+    display: flex;
+}
+
+#logoentete, nav {
+    width: 50%
+}
+#imglogoentete{
+    margin: 45px 0 40px 55px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#imglogoentete {
+    width: 60px;
+    height: 20px;
+    padding: 0%;
+}
+
+nav {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+}
+
+#conteneurlinav {
+    display: flex;
+    padding-right: 70px;
+    padding-top: 70px;
+}
+
+.lianav {
+    margin-right: 50px;
+    margin-top: 60px
+}
+
+.lianav :hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 57px;
+}
+
+.anav {
+    height: 70px;
+    color: #0065FC
+
+}
+
+/* --------------------- main ---------------------- */
+
+/* Texte haut */
+#textehaut {
+    margin: 30px 0 25px 0;
+}
+
+/* ------barre de recherche------- */
+
+#barrederecherche {
+    margin: 10px 0;
+    display: flex;
+}
+
+#conteneurdotbdr {
+    width: 50px;
+    height: 48px;
+    background-color:#D9D9D9;
+    border-radius: 15px 0PX 0PX 15PX;
+}
+
+#dotbdr {
+    transform: translateX(-50%) translateY(-50%);
+    margin: 50% 50%;
+}
+
+#destination {
+    height: 44px;
+    margin-top: 0%;
+    font-size: 21px;
+    font-weight: bold;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    color: black;
+    width: 100%;
+}
+
+::placeholder {
+    color: black;
+    font-size: 700;
+    padding-left: 20px;
+}
+
+#boutonrecherchebdr {
+        height: 48px;
+        color : white;
+        background-color: #0065FC;
+        border-radius: 0 15px 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 14px;
+        border: none;
+}
+
+#loupeicone {
+    display: none;
+}
+
+#formbdr {
+    height: 50px;
+    width: auto;
+    display: flex;
+}
+#formbdr2 {
+    margin-top: 0%;
+}
+
+/* ------- barre de filtres ------- */
+
+#conteneurbdf {
+    display: flex;
+}
+#barrefiltres {
+    display: flex;
+    align-items: center;
+}
+
+#divbtnfiltres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.libtnfiltres {
+    display: flex;
+    align-items: center;
+    border: 2px solid #DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 35px;
+    padding: 0 20px;
+}
+
+.libtnfiltres:hover {
+    background-color: #DEEBFF;
+}
+
+.btnfiltres i {
+    color:#0065FC;
+    /* margin-right: 10px; */
+}
+
+#divinfo {
+    display: flex;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+#texticonei p{
+    height: 100%;
+    margin: 0;
+}
+
+#infoentoure {
+    border: 1px solid #D9D9D9 ;
+    border-radius: 100%;
+    padding: 8px 5px 10px 14px;
+    color: #0065FC;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* ---------------- cartes mid --------------- */
+
+
+#sectiontop{
+    display: flex;
+    justify-content: space-between;
+} 
+
+#ancrehebergements {
+    margin-top: 40px;
+}
+
+article {
+    width: 69%;
+    height: auto;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+#listecarteshebergement {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 20px;
+    margin-left: 4%;
+    margin-right: 0%;
+}
+
+.imgcarteart {
+    margin: 3px 3px 10px 1px;
+    border-radius: 15px 15px 0 0;
+    width: 99%;
+    height: 56%;
+    overflow: hidden;
+}
+
+.carte img {
+    width: auto;
+    min-width: 100%;
+    height: 98%;
+    min-height: 98%;
+    object-fit: cover;
+}
+
+.carte {
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 28%;
+    height: 200px;
+}
+
+.textareacarteart {
+    width: 100%;
+    height: 30%;
+}
+
+.textareacarteart h3 {
+    margin-left: 2%;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.textareacarteart p {
+    margin-bottom: 7px;
+}
+
+#listecarteshebergement a{
+    color: black;
+}
+
+.divetoiles {
+    margin: 0px 0 0 2%;
+}
+
+.divetoiles p {
+    font-size: 14px;
+}
+
+.etoilepleine {
+    color: #0065FC;
+    font-size: 14px;
+}
+
+.etoilevide {
+    color: #DEEBFF;
+     font-size: 14px;  
+}
+
+article h1, article h2{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+article h2 {
+    margin-top: 40px;
+}
+
+/* --------------aside-------------- */
+
+
+aside {
+    background-color: #D9D9D9;
+    width: 28%;
+    height: auto;
+    border-radius: 15px;
+}
+
+aside a{
+    color: black;
+}
+
+#titreaside {
+    display: flex;
+    margin: 20px 20px 0px 20px;
+    justify-content: space-between;
+}
+
+#iconetitreaside {
+    color: #0065FC;
+    font-size: 22px;
+}
+
+#conteneurcarteaside {
+    margin: 0 30px;
+}
+
+.carteaside {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 144px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.imgcarteasidepc {
+    width: 100%;
+    height: 94%;
+    border-radius: 20px 0 0 20px;
+    margin: 3% 10px 3% 4px;
+    object-fit: cover;
+}
+
+.photocarteaside {
+    width: 40%
+}
+
+.textecarteaside {
+    width: 60%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textupsideaside {
+    align-items: flex-start;
+    height: 70%;
+}
+
+.etoilesaside {
+    align-items: flex-end;
+    height: 30%;
+}
+
+.prixnuiteeaside {
+    margin-top: -10px;
+}
+/* ---------------section activite -------------- */
+
+
+#sectionactivites {
+    width: 100%;
+}
+#cartesactivites {
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+    width: 100%;
+    height: 440px;
+    margin-top: 20px;
+}
+
+#ancreactivites {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.carteactivite {
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+
+.imgcarteactivite {
+    width: 100%;
+    height: 390px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.carteactivite h3 {
+    margin-left: 5%;
+    margin-top: 3px;
+    color: black;
+}
+
+#brmarseille {
+    display: none;
+}
+
+/* --------------footer-------------- */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    background-color: #D9D9D9;
+}
+
+.footdiv {
+    margin-top: 15px;
+}
+
+.footdiv li {
+    width: 100%;
+    padding: 20px 0 10px 0;
+}
+
+.footdiv ul {
+    padding-left: 0;
+}
+
+footer a {
+    color: black;
+    font-size: 16px;
+}

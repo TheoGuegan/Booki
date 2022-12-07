@@ -1,0 +1,149 @@
+@media all and (max-width: 767px) {
+
+* {
+    max-width: 767px;
+}
+
+
+header {
+    display: block;
+}
+
+#logoentete {
+    width: 100%;
+    max-width: 767px;
+    margin: 0;
+}
+#imglogoentete {
+    margin: 50px 50% 0 50%;
+    transform: translate(-25%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lianav {
+    width: 100%;
+    display: flex;
+    margin: 30px 0 0 0;
+    justify-content: center;
+    height: 40px;
+}
+
+.anav {
+    height: auto;
+}
+.lianav :hover {
+    border-bottom: 2px solid #0065FC;
+    padding-bottom: 10px;
+    padding-top: 0;
+    border-top: none;
+}
+
+#loupeicone {
+    display: block;
+}
+
+#btnrechercher {
+    display: none;
+}
+
+#conteneurbdf {
+    display: block;
+}
+
+#divbtnfiltres {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-left: 10px;
+}
+
+.libtnfiltres {
+width: 35%;
+margin: 0;
+}
+
+#divinfo {
+    margin: 20px 10px 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#sectiontop {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+aside {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+article {
+    width: auto;
+    background-color: white;
+}
+
+#listecarteshebergement {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.carte {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.imgcarteart {
+    width: 98%;
+    border-radius: 20px 20px 0 0;
+    margin: 4px 4px 10px 4px ;
+}
+
+#titreafficherplus {
+    display: none;
+}
+
+#brmarseille {
+    display: inline;
+}
+
+#ancreactivites {
+    margin-left: 20px;
+}
+
+#cartesactivites {
+    display: flex;
+    flex-direction: column;
+}
+
+.carteactivite {
+    width: 94%;
+    height: 190px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.imgcarteactivite {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footdiv {
+    margin-left: 20px;
+}
+
+}
