@@ -117,7 +117,7 @@ nav {
 #destination {
     height: 44px;
     margin-top: 0%;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
     border: 1px solid #D9D9D9;
     outline: none;
@@ -408,7 +408,10 @@ aside a{
     width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .imgcarteactivite {
     width: 100%;
@@ -418,9 +421,8 @@ aside a{
 }
 
 .carteactivite h3 {
-    margin-left: 5%;
-    margin-top: 3px;
     color: black;
+    margin:auto 0 auto 5% ;
 }
 
 #brmarseille {
