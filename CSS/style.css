@@ -120,7 +120,6 @@ nav {
     font-size: 18px;
     font-weight: bold;
     border: 1px solid #D9D9D9;
-    outline: none;
     color: black;
     width: 100%;
 }
@@ -146,14 +145,6 @@ nav {
     display: none;
 }
 
-#formbdr {
-    height: 50px;
-    width: auto;
-    display: flex;
-}
-#formbdr2 {
-    margin-top: 0%;
-}
 
 /* ------- barre de filtres ------- */
 
@@ -186,9 +177,14 @@ nav {
     background-color: #DEEBFF;
 }
 
-.btnfiltres i {
+.btnfiltres {
+    display: flex;
+    align-items: center;
+}
+
+.iconebtnfiltres {
     color:#0065FC;
-    /* margin-right: 10px; */
+    margin-right: 5px;
 }
 
 #divinfo {

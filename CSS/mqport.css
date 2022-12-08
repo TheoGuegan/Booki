@@ -1,7 +1,5 @@
 @media all and (max-width: 767px) {
 
-
-
 header {
     display: block;
 }
@@ -12,32 +10,58 @@ header {
     justify-content: center;
 }
 
-nav {
+#conteneurlinav {
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    /* width: 100%; */
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .lianav {
-    /* width: 100%; */
     display: flex;
-    /* margin: 30px 0 0 0; */
     justify-content: center;
     height: 40px;
+    padding-left: 0;
 }
 
 .anav {
     height: auto;
+    padding-top: 0;
 }
 .lianav :hover {
     border-bottom: 2px solid #0065FC;
-    padding-bottom: 10px;
-    padding-top: 0;
     border-top: none;
 }
 
+#textehaut {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 #loupeicone {
-    display: block;
+    display: flex;
+    align-items: baseline;
+}
+
+#destination {
+    font-size: 16px;
+}
+
+#conteneurdotbdr {
+    width: 50px;
+    min-width: 50px;
+    height: 48px;
+    background-color: #D9D9D9;
+    border-radius: 15px 0PX 0PX 15PX;
+}
+
+::placeholder {
+    padding-left: 2%;
 }
 
 #btnrechercher {
@@ -55,8 +79,18 @@ nav {
 }
 
 .libtnfiltres {
-width: 35%;
-margin: 0;
+    width: 33%;
+    margin: 0;
+    font-size: 11px;
+}
+
+.iconebtnfiltres{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.textbtnfiltres p {
+    font-size: 11px;
 }
 
 #divinfo {
