@@ -136,6 +136,7 @@ nav {
 
 #conteneurbdf {
     display: flex;
+    align-items: center;
 }
 #barrefiltres {
     display: flex;
