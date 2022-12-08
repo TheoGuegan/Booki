@@ -104,6 +104,10 @@ nav {
     flex-direction: column-reverse;
 }
 
+article p {
+    font-size: 14px;
+}
+
 aside {
     width: 100%;
     margin: 0;

@@ -1,12 +1,5 @@
 @media all and (min-width: 768px) and (max-width: 992px) {
     
-#conteneurlinav {
-    margin: 0;
-}
-
-.lianav {
-    margin-top: 40px;
-}
 
 .lianav :hover {
     color: black;
@@ -16,11 +9,6 @@
 #textehaut {
     margin-top: 40px;
 }
-
-#formbdr {
-    width: 280px;
-} 
-
 
 #divbtnfiltres {
     padding-inline-start: 0px;
@@ -78,7 +66,7 @@ aside {
 }
 
 #cartesactivites h3 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .footdiv li {
