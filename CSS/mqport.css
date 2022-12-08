@@ -1,5 +1,10 @@
 @media all and (max-width: 767px) {
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: block;
 }
@@ -39,8 +44,11 @@ nav {
 }
 
 #textehaut {
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+#barrederecherche {
+    margin: auto 20px;
 }
 
 #loupeicone {
@@ -64,18 +72,24 @@ nav {
     padding-left: 2%;
 }
 
+
 #btnrechercher {
     display: none;
 }
 
 #conteneurbdf {
     display: block;
+    margin: auto 20px;
+}
+
+#barrefiltres {
+    margin-bottom: -20px;
 }
 
 #divbtnfiltres {
     flex-wrap: wrap;
     row-gap: 10px;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 .libtnfiltres {
@@ -94,7 +108,7 @@ nav {
 }
 
 #divinfo {
-    margin: 20px 10px 0px 10px;
+    margin: 20px 20px 0px 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -119,10 +133,14 @@ article {
     background-color: white;
 }
 
+article h2 {
+    display: none;
+}
+
 #listecarteshebergement {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 20px;
 }
 
 .carte {
