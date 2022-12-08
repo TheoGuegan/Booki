@@ -8,13 +8,13 @@
     margin-top: 40px;
 }
 
-.lianav a{
+.lianav :hover {
     color: black;
+    border: none;
 }
 
-
-.lianav :hover {
-    display: none;
+#textehaut {
+    margin-top: 40px;
 }
 
 #formbdr {
@@ -32,7 +32,7 @@
 .libtnfiltres {
     height: 35px;
     margin-right: 15px;
-    padding: 0px 11px;
+    padding: 0px 9px;
 }
 
 #sectiontop {
