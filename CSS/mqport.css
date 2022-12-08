@@ -130,23 +130,31 @@ aside {
 
 article {
     width: auto;
+    margin: auto 0;
     background-color: white;
+}
+
+article h1 {
+    margin: auto 20px;
 }
 
 article h2 {
     display: none;
 }
 
+/* #ancrehebergement {
+    margin-bottom: 50px;
+} */
 #listecarteshebergement {
     display: flex;
     flex-direction: column;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .carte {
-    width: 90%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 98%;
+    /* margin-left: 3%;
+    margin-right: 3%; */
 }
 
 .imgcarteart {
@@ -173,10 +181,10 @@ article h2 {
 }
 
 .carteactivite {
-    width: 94%;
+    width: auto;
     height: 190px;
     overflow: hidden;
-    margin: auto;
+    margin: auto 20px;
 }
 
 .imgcarteactivite {
