@@ -75,6 +75,7 @@ nav {
 .anav {
     color: black;
     padding: 25px 0;
+    border-top: 2px solid transparent;
 }
 
 /* --------------------- main ---------------------- */
@@ -345,6 +346,7 @@ aside a{
 .textupsideaside {
     align-items: flex-start;
     height: 70%;
+    padding-right: 5px;
 }
 
 .etoilesaside {

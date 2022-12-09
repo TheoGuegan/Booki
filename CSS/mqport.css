@@ -37,6 +37,7 @@ nav {
 .anav {
     height: auto;
     padding-top: 0;
+    border: none;
 }
 .lianav :hover {
     border-bottom: 2px solid #0065FC;
@@ -142,9 +143,6 @@ article h2 {
     display: none;
 }
 
-/* #ancrehebergement {
-    margin-bottom: 50px;
-} */
 #listecarteshebergement {
     display: flex;
     flex-direction: column;
@@ -153,8 +151,6 @@ article h2 {
 
 .carte {
     width: 98%;
-    /* margin-left: 3%;
-    margin-right: 3%; */
 }
 
 .imgcarteart {
