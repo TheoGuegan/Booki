@@ -179,7 +179,8 @@ article h2 {
 .carteactivite {
     width: auto;
     height: 190px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     margin: auto 20px;
 }
 
@@ -188,6 +189,7 @@ article h2 {
     height: 70%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+    overflow: hidden;
 }
 
 footer {
