@@ -30,7 +30,7 @@ li {
     list-style-type: none;
 }
 
-/* ---------------------- header ------------------- */
+/* header */
 header {
     display: flex;
 }
@@ -78,13 +78,13 @@ nav {
     border-top: 2px solid transparent;
 }
 
-/* --------------------- main ---------------------- */
+/* main */
 
 /* Texte haut */
 #textehaut {
     margin: 30px 0 25px 0;
 }
-/* ------barre de recherche------- */
+/* barre de recherche */
 
 #barrederecherche {
     margin: 10px 0;
@@ -132,7 +132,7 @@ nav {
 }
 
 
-/* ------- barre de filtres ------- */
+/* barre de filtres */
 
 #conteneurbdf {
     display: flex;
@@ -191,7 +191,7 @@ nav {
     margin-right: 5px;
 }
 
-/* ---------------- cartes mid --------------- */
+/* cartes mid */
 
 
 #sectiontop{
@@ -201,6 +201,7 @@ nav {
 
 #ancrehebergements {
     margin-top: 40px;
+    font-size: 22px;
 }
 
 article {
@@ -283,7 +284,7 @@ article h2 {
     margin-bottom: 30px;
 }
 
-/* --------------aside-------------- */
+/* aside */
 
 
 aside {
@@ -295,6 +296,10 @@ aside {
 
 aside a{
     color: black;
+}
+
+aside h2 {
+    font-size: 22px;
 }
 
 #titreaside {
@@ -356,7 +361,7 @@ aside a{
 .prixnuiteeaside {
     margin-top: -10px;
 }
-/* ---------------section activite -------------- */
+/* section activite  */
 
 
 #sectionactivites {
@@ -373,6 +378,7 @@ aside a{
 #ancreactivites {
     margin-top: 50px;
     margin-bottom: 0px;
+    font-size: 22px;
 }
 .carteactivite {
     height: 100%;
@@ -393,14 +399,15 @@ aside a{
 
 .carteactivite h3 {
     color: black;
-    margin:auto 0 auto 5% ;
+    padding-left: 10px;
+    height: 25px;
 }
 
 #brmarseille {
     display: none;
 }
 
-/* --------------footer-------------- */
+/* footer */
 
 footer {
     display: flex;
