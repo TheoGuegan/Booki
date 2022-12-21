@@ -4,10 +4,15 @@ body {
     margin: 0 auto;
     max-width: 1400px;
     padding: 0 30px;
+    cursor: default;
 }
 
 a {
     text-decoration: none;
+}
+
+a :hover {
+    cursor: pointer;
 }
 
 h1 {
