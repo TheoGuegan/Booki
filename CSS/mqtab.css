@@ -44,7 +44,7 @@ aside {
 }
 
 #titreaside {
-    margin: 10px 20px
+    margin: 10px 20px 0 20px;
 }
 
 #conteneurcarteaside {
@@ -55,6 +55,7 @@ aside {
 
 #conteneurcarteaside a {
     width: 33%;
+    margin-bottom: 30px;
 }
 .carteaside {
     width: 100%;
@@ -75,5 +76,9 @@ aside {
 
 .footdiv li {
     padding : 10px 0 0 0;
+}
+
+.carteaside {
+    margin : 0;
 }
 }
